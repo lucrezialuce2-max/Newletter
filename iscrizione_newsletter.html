@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lanerossi | Iscriviti alla Newsletter</title>
-    <!-- Caricamento di Tailwind CSS CDN -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Configurazione per utilizzare il font Inter, coerente con lo stile moderno -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
@@ -25,15 +24,12 @@
 </head>
 <body class="min-h-screen flex flex-col justify-between items-center p-8">
 
-    <!-- Header / Logo -->
     <header class="w-full max-w-4xl text-center">
         <a href="#" class="inline-block mb-16">
-            <!-- Immagine del logo Lanerossi (lanerossi.png) -->
             <img src="lanerossi.png" alt="Lanerossi Logo" class="h-6 w-auto mx-auto">
         </a>
     </header>
 
-    <!-- Contenuto Principale / Form di Iscrizione -->
     <main class="flex-grow flex flex-col items-center justify-center w-full max-w-md text-center px-4">
         
         <p class="text-xs uppercase tracking-widest mb-2 text-gray-600">Esplora l'ecosistema del sonno</p>
@@ -41,24 +37,19 @@
             Lanerossi News
         </h1>
 
-        <!-- Descrizione -->
         <p class="text-lg italic mb-8 max-w-xs leading-relaxed text-gray-700">
             Iscriviti per ricevere in anteprima le novità, gli eventi e i segreti di un riposo rigenerante.
         </p>
 
-        <!-- Form: l'action punta alla pagina di ringraziamento -->
         <form action="ringraziamento.html" method="GET" class="w-full">
             <div class="space-y-4">
                 
-                <!-- Campo Nome (Mockup: senza 'required') -->
                 <input type="text" id="name" name="name" placeholder="Nome"
                        class="w-full p-3 border border-gray-300 focus:border-black focus:ring-0 outline-none transition duration-200 text-sm rounded-none">
                 
-                <!-- Campo Email (Mockup: senza 'required') -->
                 <input type="email" id="email" name="email" placeholder="Email"
                        class="w-full p-3 border border-gray-300 focus:border-black focus:ring-0 outline-none transition duration-200 text-sm rounded-none">
                 
-                <!-- Checkbox Privacy (Mockup: senza 'required') -->
                 <div class="flex items-start text-left pt-2">
                     <input type="checkbox" id="privacy" name="privacy"
                            class="mt-1 h-4 w-4 text-black border-gray-300 rounded-none focus:ring-0">
@@ -68,7 +59,6 @@
                 </div>
             </div>
 
-            <!-- Bottone di Iscrizione -->
             <button type="submit"
                     class="mt-8 w-full py-3 bg-black text-white text-sm font-medium uppercase tracking-widest hover:bg-gray-800 transition duration-300 flex items-center justify-center rounded-none shadow-lg">
                 Iscriviti
@@ -78,7 +68,6 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="w-full max-w-4xl text-center mt-16">
         <p class="text-xs text-gray-500 uppercase tracking-widest">&copy; LANEROSSI THE SLEEP SYSTEM 2025</p>
     </footer>
